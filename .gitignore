@@ -1,0 +1,29 @@
+# Plano da atividade (fica apenas na maquina local)
+Plano_Persistencia_SQLite_Android.md
+
+# Gradle
+.gradle/
+build/
+/captures
+
+# Caminho do SDK (gerado pelo Android Studio em cada maquina)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+out/
+
+# Native / C++
+.externalNativeBuild/
+.cxx/
+
+# APKs e artefatos de build
+*.apk
+*.aab
+*.ap_
+*.hprof
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
