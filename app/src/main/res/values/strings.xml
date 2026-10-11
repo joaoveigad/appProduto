@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name">Cadastro de Produtos</string>
     <string name="titulo_cadastro">Cadastro de Produto</string>
+    <string name="subtitulo_cadastro">Preencha os dados e toque em SALVAR</string>
     <string name="hint_nome">Nome</string>
     <string name="hint_preco">Preço</string>
     <string name="botao_salvar">SALVAR</string>
     <string name="titulo_lista">Produtos cadastrados</string>
-    <string name="msg_etapa_interface">Interface pronta! A validação e o SQLite serão implementados na próxima etapa.</string>
+    <string name="texto_lista_vazia">Nenhum produto cadastrado ainda.</string>
+    <string name="erro_nome">Nome inválido. Mínimo de 3 caracteres.</string>
+    <string name="erro_preco">Preço inválido. Informe um valor maior que zero.</string>
+    <string name="erro_preco_numero">Preço inválido. Digite um número.</string>
+    <string name="msg_sucesso">Produto salvo com sucesso!</string>
 </resources>

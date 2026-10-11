@@ -1,58 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="20dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:text="@string/titulo_cadastro"
-        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/editNome"
+    <View
+        android:layout_width="52dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_acento" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/subtitulo_cadastro"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutNome"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_nome"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName" />
+        app:startIconDrawable="@drawable/ic_nome">
 
-    <EditText
-        android:id="@+id/editPreco"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutPreco"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
         android:hint="@string/hint_preco"
-        android:importantForAutofill="no"
-        android:inputType="numberDecimal" />
+        app:startIconDrawable="@drawable/ic_preco">
 
-    <Button
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/botaoSalvar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/botao_salvar" />
+        android:layout_height="56dp"
+        android:letterSpacing="0.12"
+        android:text="@string/botao_salvar"
+        android:textSize="16sp"
+        app:cornerRadius="12dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/titulo_lista"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <ListView
-        android:id="@+id/listaProdutos"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
         android:layout_weight="1"
-        android:divider="#DDDDDD"
-        android:dividerHeight="1dp" />
+        android:background="@drawable/bg_lista"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <ListView
+            android:id="@+id/listaProdutos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/cor_divisoria_lista"
+            android:dividerHeight="1dp"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="6dp" />
+
+        <TextView
+            android:id="@+id/textoListaVazia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/texto_lista_vazia"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+    </LinearLayout>
 
 </LinearLayout>

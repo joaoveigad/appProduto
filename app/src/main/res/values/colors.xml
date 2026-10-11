@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorSecondary">#FF6D00</color>
+    <color name="cor_fundo_tela">#FFFFFF</color>
+    <color name="cor_fundo_lista">#F2F5F9</color>
+    <color name="cor_borda_lista">#DFE3EA</color>
+    <color name="cor_divisoria_lista">#E1E6EE</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ic_launcher_background">#1565C0</color>
