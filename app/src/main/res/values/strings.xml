@@ -11,4 +11,15 @@
     <string name="erro_preco">Preço inválido. Informe um valor maior que zero.</string>
     <string name="erro_preco_numero">Preço inválido. Digite um número.</string>
     <string name="msg_sucesso">Produto salvo com sucesso!</string>
+    <string name="botao_habilitar_edicao">HABILITAR EDIÇÃO</string>
+    <string name="botao_desabilitar_edicao">DESABILITAR EDIÇÃO</string>
+    <string name="botao_atualizar">ATUALIZAR</string>
+    <string name="botao_subir">↑ SUBIR</string>
+    <string name="botao_descer">↓ DESCER</string>
+    <string name="botao_excluir">EXCLUIR</string>
+    <string name="msg_modo_edicao_ativo">Edição ativada. Toque em um produto para editar.</string>
+    <string name="msg_selecione">Selecione um produto na lista.</string>
+    <string name="msg_atualizado">Produto atualizado com sucesso!</string>
+    <string name="msg_excluido">Produto excluído.</string>
+    <string name="msg_limite">O produto já está no limite da lista.</string>
 </resources>

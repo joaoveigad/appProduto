@@ -7,6 +7,8 @@
     <color name="cor_fundo_lista">#F2F5F9</color>
     <color name="cor_borda_lista">#DFE3EA</color>
     <color name="cor_divisoria_lista">#E1E6EE</color>
+    <color name="cor_selecao">#D6E4F7</color>
+    <color name="cor_excluir">#C62828</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ic_launcher_background">#1565C0</color>
