@@ -9,7 +9,7 @@
     <string name="texto_lista_vazia">Nenhum produto cadastrado ainda.</string>
     <string name="erro_nome">Nome inválido. Mínimo de 3 caracteres.</string>
     <string name="erro_preco">Preço inválido. Informe um valor maior que zero.</string>
-    <string name="erro_preco_numero">Preço inválido. Digite um número.</string>
+    <string name="erro_preco_numero">deve ser um número</string>
     <string name="msg_sucesso">Produto salvo com sucesso!</string>
     <string name="botao_habilitar_edicao">HABILITAR EDIÇÃO</string>
     <string name="botao_desabilitar_edicao">DESABILITAR EDIÇÃO</string>
