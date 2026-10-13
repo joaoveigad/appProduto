@@ -2,10 +2,6 @@
 
 Software desenvolvido como trabalho referente ao tema **frameworks para desenvolvimento de software**. Aplicativo Android nativo em **Java** para cadasrar produtos e persistir os dados em **SQLite**. O objetivo é aprender o funcionamento direto do SQLite no Android, sem Room, RecyclerView, Retrofit, API REST ou arquitetura complexa.
 
-> **Status atual: etapa de INTERFACE apenas.**
-> Tela (formulário + lista) com validação de campos. Botão SALVAR mostra Toast provisório.
-> Ainda não existem as classes `Produto.java` e `ProdutoDbHelper.java` nem o banco de dados implementados.
-
 ## Funcionamento
 
 O software apresenta um formulário com dois campos de entrada:
